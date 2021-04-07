@@ -1,12 +1,4 @@
-import _ from "lodash";
 import "../styles/sass/main.scss";
-function component() {
-  const element = document.createElement("div");
+import { execute } from "./app";
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
-
-  return element;
-}
-
-document.body.appendChild(component());
+execute();
