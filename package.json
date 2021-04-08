@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "sass": "node-sass styles/sass/main.scss styles/css/style.css -w",
+    "sass": "node-sass styles/sass/main.scss -w",
     "build": "webpack"
   },
   "keywords": [],
